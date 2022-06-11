@@ -19,7 +19,8 @@ const seededRuns = [
       domainName: 'harmonious-shift.org',
       domainSuffix: 'info',
       domainWord: 'harmonious-shift',
-      ip: '95.203.243.46',
+      ip: 'cf2b:c992:7210:7d59:2ba0:0fbd:f302:f294',
+      ipv4: '95.203.243.46',
       ipv6: '5cf2:bc99:2721:07d5:92ba:00fb:df30:2f29',
       port: 24545,
       userAgent:
@@ -45,7 +46,8 @@ const seededRuns = [
       domainName: 'fabulous-might.com',
       domainSuffix: 'biz',
       domainWord: 'fabulous-might',
-      ip: '67.143.40.54',
+      ip: '8234:8705:3894:5f4b:41c6:1a52:bf27:dccc',
+      ipv4: '67.143.40.54',
       ipv6: '4823:4870:5389:45f4:b41c:61a5:2bf2:7dcc',
       port: 17172,
       userAgent:
@@ -71,7 +73,8 @@ const seededRuns = [
       domainName: 'verifiable-infection.org',
       domainSuffix: 'org',
       domainWord: 'verifiable-infection',
-      ip: '237.117.228.199',
+      ip: '117.228.199.57',
+      ipv4: '237.117.228.199',
       ipv6: 'e7ec:32f0:a2a3:c652:bbd0:caab:de64:dfdf',
       port: 60851,
       userAgent:
@@ -427,9 +430,9 @@ describe('internet', () => {
         });
       });
 
-      describe('ip()', () => {
+      describe('ipv4()', () => {
         it('should return a random IPv4 address with four parts', () => {
-          const ip = faker.internet.ip();
+          const ip = faker.internet.ipv4();
 
           expect(ip).toBeTruthy();
           expect(ip).toBeTypeOf('string');
