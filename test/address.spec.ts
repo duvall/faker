@@ -62,7 +62,7 @@ const seededRuns = [
       cardinalDirection: 'East',
       cardinalDirectionAbbr: 'E',
       timeZone: 'Europe/Amsterdam',
-      nearbyGpsCoordinates: ['0.0814', '-0.0809'],
+      nearbyGpsCoordinates: [0.08140632875358443, -0.08093642792425726],
     },
   },
   {
@@ -92,7 +92,7 @@ const seededRuns = [
       cardinalDirection: 'East',
       cardinalDirectionAbbr: 'E',
       timeZone: 'Africa/Casablanca',
-      nearbyGpsCoordinates: ['0.0806', '-0.0061'],
+      nearbyGpsCoordinates: [0.08055259537977688, -0.006097651409731952],
     },
   },
   {
@@ -122,7 +122,7 @@ const seededRuns = [
       cardinalDirection: 'West',
       cardinalDirectionAbbr: 'W',
       timeZone: 'Asia/Magadan',
-      nearbyGpsCoordinates: ['-0.0287', '0.0596'],
+      nearbyGpsCoordinates: [-0.02872051646443488, 0.05959053473372933],
     },
   },
 ];
