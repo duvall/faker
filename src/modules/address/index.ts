@@ -329,6 +329,7 @@ export class Address {
    * faker.address.latitude() // -30.9501
    * faker.address.latitude(10, -10, 5) // 2.68452
    */
+  // TODO @xDivisionBYZerox 2022-06-12 this signature should probably be an object for easyer maintainability
   latitude(max: number = 90, min: number = -90, precision: number = 4): number {
     return this.faker.datatype.number({
       min,
@@ -348,6 +349,7 @@ export class Address {
    * faker.address.longitude() // -154.0226
    * faker.address.longitude(10, -10, 5) // -4.03620
    */
+  // TODO @xDivisionBYZerox 2022-06-12 this signature should probably be an object for easyer maintainability
   longitude(
     max: number = 180,
     min: number = -180,
