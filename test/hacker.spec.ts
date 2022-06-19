@@ -4,15 +4,6 @@ import { seededTests } from './support/seededRuns';
 
 const NON_SEEDED_BASED_RUN = 5;
 
-const functionNames = [
-  'abbreviation',
-  'adjective',
-  'noun',
-  'verb',
-  'ingverb',
-  'phrase',
-];
-
 describe('hacker', () => {
   afterEach(() => {
     faker.locale = 'en';
