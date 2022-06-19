@@ -5,27 +5,6 @@ import ibanLib from '../src/modules/finance/iban';
 import { luhnCheck } from '../src/modules/helpers/luhn-check';
 import { seededTests } from './support/seededRuns';
 
-const functionNames = [
-  'account',
-  'accountName',
-  'routingNumber',
-  'mask',
-  'amount',
-  'transactionType',
-  'currencyCode',
-  'currencyName',
-  'currencySymbol',
-  'bitcoinAddress',
-  'litecoinAddress',
-  'creditCardNumber',
-  'creditCardCVV',
-  'pin',
-  'ethereumAddress',
-  'iban',
-  'bic',
-  'transactionDescription',
-];
-
 const NON_SEEDED_BASED_RUN = 5;
 
 describe('finance', () => {
