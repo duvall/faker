@@ -62,14 +62,7 @@ describe('finance', () => {
         .it('with min', 10)
         .it('with max', undefined, 50)
         .it('with dec', undefined, undefined, 5)
-        .it(
-          'with min and max and dec and symbol and autoFormat',
-          10,
-          50,
-          5,
-          '$',
-          true
-        );
+        .it('with min and max and dec and symbol', 10, 50, 5, '$');
     });
 
     t.describe('iban', (t) => {
