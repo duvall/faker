@@ -101,7 +101,7 @@ class TestGenerator<
 
   constructor(
     private faker: Faker,
-    private readonly seed: number | number[],
+    private readonly seed: number,
     private readonly moduleName: ModuleName
   ) {
     this.module = faker[moduleName] as unknown as Module;
